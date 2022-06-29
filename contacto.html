@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-compatible" content="IE-edge" >
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="estilos.css">
+	<title>Contacto</title>
+</head>
+<body>
+
+	<div>
+		<header>
+        <h3>LUALIMA</h3>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="productos.html">productos</a></li>
+				<li><a href="promociones.html">promociones</a></li>
+				<li><a href="iniciar_sesion.html">iniciar sesion</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<section>
+		<h1>CONTACTO</h1>
+	</section>
+	<section>
+		<article>
+			<form name="formulario_personal" method="POST" action="gracias.html">
+				<fieldset>
+					<legend> Ingresa tus datos </legend>
+                <label for="firts_name">Nombre</label>
+				<input type="text" id="firts_name" placeholder="Nombre" name="firts_name" autofocus required/>
+				<label for="last_name"> Apellido</label>
+				<input type="text" id="last_name" placeholder="Apellido" name="last_name" required/> 
+				<label for="nacimiento"> Fecha de Nacimiento</label>
+				<input type="date" id="nacimiento"  name="nacimiento" required/> <br><br>
+				<label for="sexo" required>Sexo: </label>
+				<select name="sexo" id="sexo">
+				  <option value="M">Masculino</option>
+				  <option selected value="F">Femenino</option>
+				  <option value="O">Otro</option>
+				</select>
+				<label for="email" required>Email</label>
+			    <input type="email" id="email" placeholder="aaa@gmail.com" name="email"/> 
+				<label for="cel_number" required> Celular</label>
+				<input type="text" id="cel_number" placeholder="ej: 3512482487" name="cel_number"/>
+				 <br> <br> 
+				<label for="Comentario"> Comentario:<br><br>
+					<textarea placeholder="Comentario" rows="10" cols="50"></textarea>
+				</label> <br>
+				<input type="submit" value="ENVIAR">
+				<input type="reset" value="RESETEAR">
+			</fieldset>
+			</form>
+		</article>
+	</section>
+
+	<footer>
+		<span style="font-size: 11px;">Copyright &copy; - Lualima &reg; Desarrollo Web</span>
+		<div style="margin-top: 10px">
+		  <span>
+			<i class="fab fa-facebook"></i>
+		  </span>
+		  <span>
+			<i class="fab fa-twitter"></i>
+		  </span>
+		  <span>
+			<i class="fab fa-instagram"></i>
+		  </span>
+		  <span>
+			<i class="fab fa-linkedin"></i>
+		  </span>
+		</div>
+	  </footer>
+	</div>
+</body>
+</html>
