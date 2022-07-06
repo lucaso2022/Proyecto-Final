@@ -5,57 +5,80 @@
     <meta http-equiv="X-UA-compatible" content="IE-edge" >
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>LUALIMA</title>
-	<link rel="stylesheet" href="estilos.css"> 
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <script src="assets/js/jquery.slim.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    
+	<link rel="stylesheet" href="assets/css/estilos.css"> 
 
 <html>
     <body>
-        <div id="wrapper">
-            <header>
-                <h1> LUALIMA</h1>
-                <nav>
-                    <ul>
-                      <li><a href="index.html">Inicio</a></li>
-                      <li><a href="productos.html">Productos</a></li>
-                      <li><a href="promociones.html">Promociones</a></li>
-                      <li><a href="contacto.html">Contacto</a></li>
-                      <li><a href="iniciar_sesion.html"> Iniciar Sesion</a></li>
-                    </ul>
-                  </nav>
-            </header>
-            <section id="intro">
-                <h1>¿QUENES SOMOS?</h1><br><br>
-                <p> ¿Sabias que el 95% de la ropa puede ser reciclada o reutilizada? <br><br>
-  
-                    En Lualima le damos otra oportunidad a esa ropa que podamos mantener activa mientras tenga vida util
-                    y esten sin uso en el placard, hacemos girar la moda sustentable.<br><br>
-                    
-                    podemos vestirnos bien sin gastar una fortuna y ayudando a nuestro planeta </p>
-            </section>
-            <section id="post">
-                <h2>ULTIMOS ARTICULOS</h2><br><br>
-                <div id="ultimos-articulos">
-                <article>
-                    <img src=https://i.linio.com/p/01d1c98bbb40e5abcc61b14c85bfeca5-product.jpg alt="CAMISA MANGA LARGA HOMBRE MOSSIMO"></img>
-                <p>CAMISA MANGA LARGA HOMBRE MOSSIMO </p>
-            </article>
-            <article>
-                <img  src="https://falabella.scene7.com/is/image/FalabellaPE/17668799_1" alt="BLAZER CUADROS MUJER MANGO"></img>
-                <p>BLAZER CUADROS MUJER MANGO</p>
-            </article>	
-                <article>
-                 <img src="https://falabella.scene7.com/is/image/Falabella/16128436_1" alt="JEAN SLIM HOMBRE">
-                <P>JEAN SLIM HOMBRE</P>
-            </article>
-                <article>
-                <img src="https://http2.mlstatic.com/D_NQ_NP_686896-MLU48445810369_122021-W.jpg" alt="PANTALON DE LINO BLANCO MUJER">
-                <P>PANTALON DE LINO BLANCO MUJER</P></article>
+        <header>
+            <div class="container">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-6">
+                      <h1> LUALIMA</h1>
+                    </div>
+                    <div class="col-6">
+                        <nav>
+                            <ul>
+                              <li><a href="index.html">Inicio</a></li>
+                              <li><a href="productos.html">Productos</a></li>
+                              <li><a href="promociones.html">Promociones</a></li>
+                              <li><a href="contacto.html">Contacto</a></li>
+                              <li><a href="iniciar_sesion.html"> Iniciar Sesion</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
             </div>
-            </section>
-            
+        </header>
+        <section>
+            <div class="container mt-5">
+                <div class=" text-center mb-5">
+                 <h1>¿QUENES SOMOS?</h1>
+                </div>
+                <p class="text-center"> ¿Sabias que el 95% de la ropa puede ser reciclada o reutilizada? <br><br>
         
-            <footer>
-                <span style="font-size: 11px;">Copyright &copy; - Lualima &reg; Desarrollo Web</span>
-            </footer>
-        </div>
+                En Lualima le damos otra oportunidad a esa ropa que podamos mantener activa mientras tenga vida util
+                y esten sin uso en el placard, hacemos girar la moda sustentable.<br><br>
+            
+                podemos vestirnos bien sin gastar una fortuna y ayudando a nuestro planeta </p>
+            </div>
+        </section>
+        <section class="container mt-5 ">
+            <div class="row justify-content-around align-content-start">
+                <div class=" p-2 col-12 col-mb-6 col-lg-4 col-xl-3 mb-3">
+                        <img src=https://i.linio.com/p/01d1c98bbb40e5abcc61b14c85bfeca5-product.jpg alt="CAMISA MANGA LARGA HOMBRE MOSSIMO"></img>
+                    <p>CAMISA MANGA LARGA HOMBRE MOSSIMO </p>
+                </div>
+                    <div class=" p-2 col-12 col-mb-6 col-lg-4 col-xl-3 mb-3">
+                        <img  src="https://falabella.scene7.com/is/image/FalabellaPE/17668799_1" alt="BLAZER CUADROS MUJER MANGO"></img>
+                    <p>BLAZER CUADROS MUJER MANGO</p>
+                    </div>	
+                    <div class=" p-2 col-12 col-mb-6 col-lg-4 col-xl-3 mb-3">
+                     <img src="https://falabella.scene7.com/is/image/Falabella/16128436_1" alt="JEAN SLIM HOMBRE">
+                    <P>JEAN SLIM HOMBRE</P>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="container-fluid mt-5">
+            <span style="font-size: 11px;">Copyright &copy; - Lualima &reg; Desarrollo Web</span>
+            <div style="margin-top: 10px">
+              <span>
+                <i class="fab fa-facebook"></i>
+              </span>
+              <span>
+                <i class="fab fa-twitter"></i>
+              </span>
+              <span>
+                <i class="fab fa-instagram"></i>
+              </span>
+              <span>
+                <i class="fab fa-linkedin"></i>
+              </span>
+            </div>
+          </footer>
     </body>
 </html>

@@ -1,0 +1,44 @@
+header{
+    background-color: aqua;
+}
+
+h1{ 
+    display: inline;
+}
+
+ul{
+    display: inline-block;
+}
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+
+a{
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: aliceblue;
+    list-style-type: none;
+
+}
+
+
+
+footer {
+    display: inline-block;
+    background-color: aqua;
+    text-align: center;
+}
+
+section img {
+    max-width: fit-content;
+    max-height: fit-content;
+}
