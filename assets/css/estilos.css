@@ -4,6 +4,7 @@ header{
 
 h1{ 
     display: inline;
+    
 }
 
 ul{
@@ -39,6 +40,23 @@ footer {
 }
 
 section img {
-    max-width: fit-content;
-    max-height: fit-content;
+    max-width: 200px;
+    max-height: 300px;
 }
+
+@keyframes bigger-box {
+  25%{ width: 300px; height: 400px;}
+  50%{ width: 400px; height: 500px;}
+  75%{ width: 500px; height: 600px;}
+  100%{ width: 600px; height: 700px;}
+ }
+
+ .box{
+
+    animation-name: bigger-box;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+    animation-delay: 1s;
+
+ }
